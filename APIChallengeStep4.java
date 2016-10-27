@@ -23,7 +23,7 @@ public class APIChallengeStep4 {
         //Gets the dictionary string provided by calling the getHTTPResponse helper 
         String s = getHTTPResponse();
 
-        //Replaces the first ',' in the program with something unique so I can split the string between the needle and the haystack
+        //Replaces the first ',' in the program with something unique so I can split the string between the prefix and the array
         s = s.replaceFirst(",", ",,");
 
         //Gets rid of all excess punctuation in the returned dictionary string
