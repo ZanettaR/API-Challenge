@@ -123,7 +123,6 @@ public class APIChallengeStep4 {
         }
     }
 
-    //Method will return the provided dictionary of needle and haystack
     public static String getHTTPResponse() {
         String s = null;
 
